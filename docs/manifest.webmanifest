@@ -1,0 +1,35 @@
+{
+    "dir": "ltr",
+    "lang": "ja-JP",
+    "name": "Block3 HSP3Dish",
+    "short_name": "Block3",
+    "display": "minimal-ui",
+    "start_url": "https://zakki.github.io/block3/",
+    "scope": "https://zakki.github.io/block3/",
+    "background_color": "#000000",
+    "theme_color": "transparent",
+    "description": "Block3 Demo",
+    "orientation": "portrait",
+    "icons": [{
+		"src": "res/icon240.png",
+		"sizes": "240x240",
+		"type": "image/png"
+	},
+	{
+		"src": "res/drawable-hdpi/ic_launcher.png",
+		"sizes": "72x72",
+		"type": "image/png"
+	}, {
+		"src": "res/drawable-ldpi/ic_launcher.png",
+		"sizes": "36x36",
+		"type": "image/png"
+	}, {
+		"src": "res/drawable-mdpi/ic_launcher.png",
+		"sizes": "48x48",
+		"type": "image/png"
+	}, {
+		"src": "res/drawable-xhdpi/ic_launcher.png",
+		"sizes": "96x96",
+		"type": "image/png"
+	}]
+}
