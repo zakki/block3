@@ -1,6 +1,6 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
-const CACHE = "block3-v2";
+const CACHE = "block3-v3";
 
 const assets = [
 	"./",
