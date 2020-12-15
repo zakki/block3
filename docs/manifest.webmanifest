@@ -3,7 +3,7 @@
     "lang": "ja-JP",
     "name": "Block3 HSP3Dish",
     "short_name": "Block3",
-    "display": "minimal-ui",
+    "display": "standalone",
     "start_url": "https://zakki.github.io/block3/",
     "scope": "https://zakki.github.io/block3/",
     "background_color": "#000000",
