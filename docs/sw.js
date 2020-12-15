@@ -1,6 +1,6 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
-const CACHE = "block3-v3";
+const CACHE = "block3-v4";
 
 const assets = [
 	"./",
@@ -34,11 +34,11 @@ if (workbox.navigationPreload.isSupported()) {
 }
 
 self.addEventListener('fetch', (event) => {
-    console.log('[Service Worker] Fetched resource url:'+event.request.url + ' mode:' + event.request.mode);
+	console.log('[Service Worker] Fetched resource url:' + event.request.url + ' mode:' + event.request.mode);
 	event.respondWith((async () => {
 		try {
 			const preloadResp = await event.preloadResponse;
-			
+
 			if (preloadResp) {
 				return preloadResp;
 			}
